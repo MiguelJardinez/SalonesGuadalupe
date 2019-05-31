@@ -17,12 +17,13 @@ ul{
 .herotittle{
     width: 100%;
 }
-.hero h1{
-    color: white;
-    font-family: tangerine;
-    font-size: 140px;
-    margin-top: 50px;
-    font-weight: 500;
+.heroinfo{
+    text-align: start;
+    width: 450px;
+    margin: 10% 5% 0;
+}
+.heroimage img{
+    width: inherit;
 }
 .socialHero{
     width: 50px;
@@ -32,10 +33,11 @@ ul{
     text-align: center;
 }
 .hero h3{
-    color: white;
-    font-size: 35px;
-    font-weight: 300;
+    color: #A3701B;
+    font-size: 24px;
+    font-weight: 500;
     margin: 0;
+    text-align: center;
 }
 .background{
     background-repeat: no-repeat;

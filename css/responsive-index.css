@@ -7,9 +7,16 @@
     .planifica{
         padding: 0 0 10px ;
     }
+    .heroinfo h3{
+    margin-top: 10%;
+    }
 }
 @media (max-width: 1024px){
-    
+    .hero h3{
+        margin: 0;
+        width: inherit;
+        margin-top: 10%;
+    }
     .eventDescription{
         font-size: 1.5em; 
         padding: 35px;
@@ -43,7 +50,9 @@
     }
 }
 @media (max-width: 768px){
-
+    .heroinfo{
+        margin: 5% auto 0;
+    }
     /* Footer y Header Responsive */
     .menu-toggle{
         display: block;
@@ -193,7 +202,13 @@
     }
 }
 @media (max-width: 425px){
-
+    .heroimage img{
+        width: 350px;
+    }
+    .heroinfo{
+        width: 100%;
+        text-align: center;
+    }
 
     /* Footer y Header Responsive */
     .backgroundcontainer.hero,
@@ -247,7 +262,8 @@
     }
     .herotittle h3{
         font-size: 1.3em;
-        margin-top: 50px;
+        margin-top: 20px;
+        width: inherit;
     }
     .social.hero{
         margin: 0;
@@ -372,13 +388,13 @@
         height: 400px;
     }
     /* Responsive Hero */
-    .herotittle h1{
-        font-size: 4em;
+    .heroimage img{
+        width: 300px;
     }
     .herotittle h3{
-        padding: 20px;
-        margin-top: 0;
-        font-size: 1.1em;
+        margin-top: 10%;
+        font-size: 1.2em;
+        width: inherit
     }
     /* Responsive Hero */
     .tittleEvents.experiencia{
