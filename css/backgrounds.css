@@ -1,0 +1,163 @@
+/*
+//////////////////////////Backgroundimage////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+*/
+.backgroundcontainer{
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-position:center;
+}
+.backgroundtittle{
+    width: 650px;
+    height: inherit;
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 5px;
+    border: solid 2px white;
+    padding: 5px 15px;
+}
+.stadistics{
+    margin: 0 15px;
+}
+.stadisticsImage{
+    margin: 0;
+}
+.stadistics img{
+    margin: 0;
+    height: 50px;
+    width: 50px;
+}
+.stadisticsTittle{
+    font-family: Roboto;
+    font-size: 45px;
+    margin: 10px 0;
+}
+.stadistics p{
+    font-size: 14px;
+    font-family: Roboto;
+    margin: 1px 0;
+}
+
+.backgroundcontainer.hero{ 
+    background-image: url('../src/Background/00_hero.jpg');
+}
+.backgroundcontainer.liliana{
+        background-image: url('../src/Background/6.jpg')
+}
+.backgroundcontainer.logros{
+    background-image: url('../src/Background/2.jpg');
+
+}
+.backgroundcontainer.equipo{
+    background-image: url('../src/Background/1.jpg');
+}
+.backgroundcontainer.contador{
+    background-image: url('../src/Background/3.1.jpg')
+}
+.backgroundcontainer.apple{
+    background-image: url('../src/Background/4.jpg')
+}
+.backgroundcontainer.amamos{
+    background-image: url('../src/Background/5.jpg')
+}
+.backgroundcontainer.xvanos{
+    background-image: url('../src/Background/8.jpg')
+}
+.backgroundcontainer.bodas{
+    background-image: url('../src/Background/7.jpg')
+}
+.backgroundcontainer.graduaciones{
+    background-image: url('../src/Background/9.jpg')
+}
+.backgroundcontainer.eventxvanos{
+    background-image: url('../src/Background/12.jpg')
+}
+.backgroundcontainer.eventbodas{
+    background-image: url('../src/Background/13.jpg')
+}
+.backgroundcontainer.eventxvanoscounter{
+    background-image: url('../src/Background/10.jpg')
+}
+.backgroundcontainer.eventbodascounter{
+    background-image: url('../src/Background/11.jpg')
+}
+.backgroundcontainer.eventgraduacioncounter{
+    background-image: url('../src/Background/15.jpg')
+}
+.backgroundcontainer.eventgraduaciones{
+    background-image: url('../src/Background/14.jpg')
+}
+.backgroundcontainer.salonstyle{
+    background-image: url('../src/Background/16_Style.jpg')
+}
+.backgroundcontainer.stylecounter{
+    background-image: url('../src/Background/16_StyleCounter.jpg')
+}
+.backgroundcontainer.salonmagno{
+    background-image: url('../src/Background/17_Magno.jpg')
+}
+.backgroundcontainer.magnocounter{
+    background-image: url('../src/Background/17_MagnoCounter.jpg')
+}
+.backgroundcontainer.salonpalacio{
+    background-image: url('../src/Background/18_Palacio.jpg')
+}
+.backgroundcontainer.palaciocounter{
+    background-image: url('../src/Background/18_palacioCounter.jpg')
+}
+
+
+/*
+//////////////////////////Backgroundimage/////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+*/
+
+
+.infoevents{
+    font-size: 20px;
+    color: #707070;
+    margin: 40px 0;
+    padding: 20px;
+}
+.link{
+    margin: 120px;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+// ////////////////////////Galeria////////////////////////////////////////
+*/
+
+.gallery{
+    width: 300px;
+}
+.gallery img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+.galleryList{
+    display: flex;
+}
+
+/*
+//////////////////////////Galeria////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/

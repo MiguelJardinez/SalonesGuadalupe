@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Quienes Somos////////////////////////////////////////
+*/
+
+.aboutUs h1{
+    color: #A3701B;
+    font-size: 36px;
+}
+.aboutUs p{
+    text-align: justify;
+    font-size: 18px;
+    color: #707070;
+}
+.valueList{
+    display: flex;
+}
+.value.values{
+width: 472px;
+padding: 20px;
+border-left: solid 2px #A3701B;
+}
+.value{
+width: 500px;
+padding: 20px;
+}
+.value h1{
+    text-align: center;
+    color: #A3701B;
+    margin-top: 0px;
+    font-size: 32px;
+}
+.value p{
+    text-align: justify;
+    font-size: 18px;
+    color: #707070;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+// ////////////////////////Galeria////////////////////////////////////////
+*/
+
+.gallery{
+    width: 350px;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+}
+.galleryList{
+    display: flex;
+}
+
+/*
+//////////////////////////Galeria////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////Titulos//////////////////////////////
+*/
+    
+.tittlePageSalon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #A3701B;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+/*
+///////////////////////////Titulos//////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/

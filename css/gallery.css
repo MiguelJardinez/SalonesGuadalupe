@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background: white; 
+    font-family: 'Roboto'; 
+}
+
+.galeria-container{
+    background: #FFF; 
+    width: 95%;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+    background: black;
+    display: table;
+}
+
+.menu ul li {
+    display: table-cell;
+    width: calc(30px * 5)
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.menu ul .todos {background: #E69F26}
+.menu ul .bodas {background: #D19123}
+.menu ul .graduaciones {background: #A3701B}
+.menu ul .xvanos {background: #7E5715}
+.menu ul .ambientacion {background: #4d350d}
+
+.galeria{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.galeria .tittle-img{
+    width: 100%;
+    border-top: 4px solid #46ABDF;
+}
+
+.menu ul li:hover{
+    background: rgba(253, 210, 135, 0.9)
+}
+.galeria .tittle-img h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0; 
+    color: #636363;
+    font-weight: 300;
+}
+
+.galeria .box-img{
+    width: 31%;
+    height: 250px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.60);
+    overflow: hidden;
+}
+
+.galeria .box-img img{
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+    height: inherit;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.galeria .box-img:hover{
+    transform: scale(1.6);
+}
+

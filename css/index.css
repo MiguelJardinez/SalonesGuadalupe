@@ -1,0 +1,400 @@
+
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Hero////////////////////////////////////////
+*/
+.backgroundcontainer.hero{
+    height: 550px;
+}
+.herotittle{
+    width: 100%;
+}
+.hero h1{
+    color: white;
+    font-family: tangerine;
+    font-size: 140px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.socialHero{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+.hero h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.social.hero{
+    display: block;
+    margin: 50px;
+    text-align: end;
+}
+
+/*
+//////////////////////////Hero////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Titulos////////////////////////////////////////
+*/
+.tittlePageSalon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #A3701B;
+}
+.tittleEvents{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #A3701B;
+    font-size: 50px;
+}
+.eventsDetails{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #A3701B;
+    font-size: 32px;
+}
+.eventDescription{
+    font-size: 18px;
+    color: #707070;
+    margin: 50px 0;
+    padding: 10px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 25px;
+    width: 80%;
+}
+/*
+//////////////////////////Titulos////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Paquetes////////////////////////////////////////
+*/
+
+.packdetails{
+    color: black;
+    font-size: 18px
+}
+.packs-list{
+    display: flex;
+}
+.packs{
+    width: 250px;
+    padding: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.packImage img{
+    width: 150px;
+    height: 150px;    
+    object-fit: cover;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border: solid 4px black;
+}
+
+/*
+//////////////////////////Paquetes////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Servicios////////////////////////////////////////
+*/
+.planifica{
+    color: #A3701B;
+    text-align: center;
+}
+.services-list{
+    display: flex;
+}
+.services{
+    width: 250px;
+    padding: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.servicesImage{
+    display: flex;
+    justify-content: center;
+}
+.servicesImage img{
+    width: 150px;
+    height: 150px;    
+    object-fit: cover;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.servicesName{
+    font-size: 26px;
+    margin: 10px 0;
+    text-align: center;
+    color: #A3701B;
+}
+/*
+//////////////////////////Servicios////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Instalaciones////////////////////////////////////////
+*/
+.instalacionescontainer{
+    height: 430px;
+    width: 730px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.instalacionDetails{
+    font-size: 18px;
+    color: #707070;
+}
+.instalaciones{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.instalacionescontainer img{
+    object-fit: cover;
+}
+
+/*
+//////////////////////////Instalaciones/////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Review de clientes////////////////////////////////////////
+*/
+    .customerReview{
+        display: flex;
+    }
+    .customer{
+        width: 300px;
+        margin: 15px;
+    }
+    .customerImage{
+        display: flex;
+        justify-content: center;
+    }
+    .customerImage img{
+        width: 200px;
+        height: 200px;    
+        object-fit: cover;
+        border-radius: 50%;  
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .customerName{
+        font-size: 26px;
+        margin: 10px 0;
+        text-align: center;
+        color: #A3701B;
+    }
+    .customerStars{
+        text-align: center;
+        margin: 5px 0;
+    }
+    .customerDetails{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+
+/*
+//////////////////////////Review de clientes/////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+*/
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////Salones////////////////////////////////////////
+*/
+
+    .salon-list{
+        display: flex;
+    }
+    .box{
+        position: relative;
+        width: 25%;
+        height: 400px;
+        background: #000;
+        box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+        margin: 0 30px 50px 30px;
+        display: flex;
+    }
+
+    .box .imgbx{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .box .imgbx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        transition: 500ms;
+    }
+    .box:hover .imgbx img{
+        opacity: 0;
+    }
+    .box .content{
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+        width: 80%;
+        height: 60px;
+        background: #fff;
+        transition: 500ms;
+        overflow: hidden;
+        opacity: 1;
+
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .box:hover .content{
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    .box .content h3{
+        margin: 0;
+        padding: 0;
+        font-size: 130%;
+        text-align: center;
+        color: #A3701B;
+    }
+    .box .content p{
+        margin: 10px 0;
+        padding: 10px;
+        opacity: 0;
+        line-height: 1.2em;
+        transition: 500ms;
+        text-justify: distribute;
+        font-family: Roboto;
+    }
+    .box:hover .content p{
+        opacity: 1;
+        transition-delay: 200ms;
+    }
+    .linksalon{
+        display: flex;
+        justify-content: center;
+    }
+    .box .content a{
+        border: solid 1px #A3701B;
+        color: #A3701B;
+        font-weight: bold;
+        width: 60%;
+        height: 30px;
+        margin-top: 70px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+/*
+///////////////////////////Salones////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+*/
+
+
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////Terminos y condiciones//////////////////////////////
+*/
+.termandcondition{
+    text-align: justify;
+}
+.termandcondition h2{
+    margin: 10px 0;
+    font-size: 28px;
+    color: #A3701B;
+}
+.termandcondition h3{
+    margin: 0;
+    font-size: 22px;
+    color: #A3701B;
+}
+.termandcondition p{
+    margin: 0;
+    font-size: 18px;
+    color: #707070;
+}
+/*
+//////////////////////////Terminos y condiciones////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////
+//////////////////////////Información del contenedor////////////////////////////////////////
+*/

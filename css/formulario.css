@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:focus{
+    outline: none;
+}
+
+body{   
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+/*
+//////////////////////////Formulario////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+.form_wrap{
+    width: 90%;
+    height: 80%;
+    margin: 50px auto;
+    display: flex;
+
+    background: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .40); 
+}
+
+/* infromacion de contacto */
+
+    .contact_info::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background: #A3701B;
+        opacity: 0.80;
+    }
+    .info_tittle,
+    .info_items{
+        position: relative;
+        z-index: 2;
+        color: white;
+    }
+
+    .info_tittle{
+        margin-bottom: 60px;
+    }
+    .info_tittle h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .info_tittle span{
+        font-size: 100px;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px; 
+    }
+    .info_items p{
+        display: flex;
+        align-items: center;
+        font-size: 16px; 
+        font-weight: 600px;
+        margin-bottom: 10px;
+    }
+    .info_items p:nth-child(1) span{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .info_items p:nth-child(2) span{
+        font-size: 40px;
+        margin-right: 15px;
+        margin-left: 4px;   
+    }
+
+    .contact_info{
+        width: 38%;
+        position: relative;
+        background-image: url('../src/Background/13.jpg');
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+/* infromacion de contacto */
+
+
+/* Formulario de contacto */
+    form.form_contact{
+        width: 62%; 
+        padding: 30px 40px;
+    }
+    form.form_contact h2{
+        font-size: 25px;
+        font-weight: 600px;
+        color: #303030;
+        margin-bottom: 30px;
+    }
+    form.form_contact .user_info{
+        display: flex;
+        display: flex;flex-direction: column;
+    }
+    form.form_contact label{
+        font-weight: 600px;
+    }
+    form.form_contact input,
+    form.form_contact textarea{
+        width: 100%;
+        padding: 8px 0 5px;
+        margin-bottom: 20px;
+
+        border: none;
+        border-bottom: solid 2px #d1d1d1;
+
+        font-family: 'Lato';
+        color: #5a5a5a; 
+        font-size: 14px; 
+        font-weight: 400; 
+    }
+    form.form_contact textarea{
+        max-width: 100%;
+        max-height: 90px;
+        min-width: 100%;
+    }
+
+    form.form_contact input[type="submit"]{
+        width: 180px; 
+        background: #A3701B;
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+
+        align-self: flex-end;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 600px;
+        cursor: pointer; 
+    }
+    form.form_contact input[type="submit"]:hover{
+        background: #6E4D12;
+    }
+/* Formulario de contacto */
+
+
+/*
+//////////////////////////Formulario////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/* Ventana de errores */
+    .modal_wrap{
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+
+        position: fixed;
+        top: 0; 
+        left: 0;
+        z-index: 3;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mensaje_modal{
+        background: #fff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .50);
+        width: 400px;
+        padding: 30px 20px 15px
+    }
+    .mensaje_modal h3{
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .mensaje_modal h3::after{
+        content: ''; 
+        display: block; 
+        width: 100%;
+        height: 1px;
+        background: #c5c5c5; 
+        margin: 10px 0 15px;
+    }
+    .mensaje_modal p{
+        font-size: 16px; 
+        color: #606060; 
+    }
+    .mensaje_modal #btnClose{
+        display: inline-block; 
+        padding: 3px 10px; 
+        margin-top: 10px; 
+
+        background: #e25151; 
+        color: #fff; 
+        border: 2px solid #b14141; 
+        cursor: pointer;
+        float: right;
+    }
+
+/* Ventana de errores */

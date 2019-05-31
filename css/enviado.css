@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.form_wrap{
+    width: 1050px;
+    height: 530px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.form_wrap img{
+    width: 300px;
+}
+
+.form_wrap a{
+    color: black; 
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    background: #A3701B;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px
+}
+

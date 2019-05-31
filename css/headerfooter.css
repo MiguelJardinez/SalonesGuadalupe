@@ -1,0 +1,191 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Brawler';
+}
+.logo{
+    color: #A3701B;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px; 
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+nav{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    margin: 10px 0 ;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #bd831e;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    background: #A3701B;
+    color: #fff;
+    transition: 500ms;
+    border-radius: 5px;
+}
+/*
+//////////////////////////Información de informacion general////////////////////////////////////////
+*/
+
+.generalinformation{
+    display: flex;
+    flex-wrap: wrap; 
+    height: auto;
+    background-color: #6B6A65;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.generalinformation img{
+    padding: 10px 0 0 0;
+}
+
+.generalinformation a{
+    color: #E0E0E0;
+}
+.informacion{
+    padding: 0 50px 0 150px;
+}
+.paquetes{
+    padding: 0 50px 0 0;
+}
+.generalinformation h4{ 
+    color: #E0E0E0;
+    margin: 0 auto;
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.informacion h4{
+    margin: 10px 0;
+}
+
+.paquetes h4{
+    margin: 10px 0;
+}
+
+.social-link.facebook{
+    background-image: url('../src/Icons/Luxuri/Facebook/facebook.svg')
+}
+.social-link.whatsapp{
+    background-image: url('../src/Icons/Luxuri/Whatsapp/Whatsapp.svg')
+}
+.social-link.instagram{
+    background-image: url('../src/Icons/Luxuri/instagram/Instagram.svg')
+}
+.social-link.youtube{
+    background-image: url('../src/Icons/Luxuri/youtube/Youtube.svg')
+}
+/*
+//////////////////////////Información de informacion general////////////////////////////////////////
+*/
+
+/*
+//////////////////////////Información del footer////////////////////////////////////////
+*/
+
+.footer{
+    margin: 0;
+    color: #E0E0E0;
+    background: #6B6A65;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.footer h4{
+    margin: 10px;
+}
+.diseno{
+    display: flex;
+}
+.diseno p{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    font-family: 'Brawler';
+}
+.footerlogomiguel{
+    background-image: url('../src/Icons/logomiguel.svg');
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+}
+
+/*
+//////////////////////////Información del footer////////////////////////////////////////
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////
+//////////////////////////Información del contenedor////////////////////////////////////////
+*/
+
+.container{ 
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+    display: inherit;
+    align-items: inherit;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: inherit;
+}
+/*
+//////////////////////////Información del contenedor////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+*/
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+.tittlePageSalon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #A3701B;
+}
+
