@@ -204,6 +204,7 @@
 @media (max-width: 425px){
     .heroimage img{
         width: 350px;
+        margin: 10%;
     }
     .heroinfo{
         width: 100%;
@@ -264,6 +265,7 @@
         font-size: 1.3em;
         margin-top: 20px;
         width: inherit;
+        display: none;
     }
     .social.hero{
         margin: 0;
