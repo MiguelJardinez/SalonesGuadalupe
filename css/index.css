@@ -91,6 +91,7 @@ ul{
     color: #707070;
     margin: 50px 0;
     padding: 10px;
+    text-align: justify;
 }
 .center {
     margin-left: auto;
