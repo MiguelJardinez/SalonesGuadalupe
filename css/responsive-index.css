@@ -204,7 +204,7 @@
 @media (max-width: 425px){
     .heroimage img{
         width: 350px;
-        margin: 10%;
+        margin: 5%;
     }
     .heroinfo{
         width: 100%;
@@ -462,6 +462,9 @@
     }
 }
 @media (max-width: 320px){
+    .heroinfo img{
+        margin: 0;
+    }
     .eventsDetails{
         font-size: 1.1em;
     }
