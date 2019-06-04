@@ -55,48 +55,56 @@
     margin: 1px 0;
 }
 
+
+/* Background del index */
 .backgroundcontainer.hero{ 
-    background-image: url('../src/Background/00_hero.jpg');
+    background-image: url('https://i.postimg.cc/4dd0PN6H/1.jpg');
 }
 .backgroundcontainer.liliana{
-        background-image: url('../src/Background/6.1.jpg')
-}
-.backgroundcontainer.logros{
-    background-image: url('../src/Background/2.jpg');
-
-}
-.backgroundcontainer.equipo{
-    background-image: url('../src/Background/1.jpg');
-}
-.backgroundcontainer.contador{
-    background-image: url('../src/Background/3.1.jpg')
-}
-.backgroundcontainer.apple{
-    background-image: url('../src/Background/4.jpg')
+        background-image: url('https://i.postimg.cc/SRcH21Lg/02-index.jpg')
 }
 .backgroundcontainer.amamos{
-    background-image: url('../src/Background/5.jpg')
+    background-image: url('https://i.postimg.cc/HkYFn2rt/03-index.jpg')
 }
+.backgroundcontainer.contador{
+    background-image: url('https://i.postimg.cc/fTj6MFRL/04-index.jpg')
+}
+.backgroundcontainer.logros{
+    background-image: url('https://i.postimg.cc/j5wpKSD0/05-index.jpg');
+}
+.backgroundcontainer.equipo{
+    background-image: url('https://i.postimg.cc/VN6yGR1N/06-index.jpg');
+}
+/* Background del index */
+
+
+/* Brackground de xv años */
 .backgroundcontainer.xvanos{
     background-image: url('../src/Background/8.jpg')
-}
-.backgroundcontainer.bodas{
-    background-image: url('../src/Background/7.jpg')
-}
-.backgroundcontainer.graduaciones{
-    background-image: url('../src/Background/9.jpg')
 }
 .backgroundcontainer.eventxvanos{
     background-image: url('../src/Background/12.jpg')
 }
-.backgroundcontainer.eventbodas{
-    background-image: url('../src/Background/13.jpg')
-}
 .backgroundcontainer.eventxvanoscounter{
     background-image: url('../src/Background/10.jpg')
 }
+/* Brackground de xv años */
+
+/* Brackground de bodas */
+.backgroundcontainer.bodas{
+    background-image: url('../src/Background/7.jpg')
+}
+.backgroundcontainer.eventbodas{
+    background-image: url('../src/Background/13.jpg')
+}
 .backgroundcontainer.eventbodascounter{
     background-image: url('../src/Background/11.jpg')
+}
+/* Brackground de bodas */
+
+/* Background Graduaciones */
+.backgroundcontainer.graduaciones{
+    background-image: url('../src/Background/9.jpg')
 }
 .backgroundcontainer.eventgraduacioncounter{
     background-image: url('../src/Background/15.jpg')
@@ -104,24 +112,34 @@
 .backgroundcontainer.eventgraduaciones{
     background-image: url('../src/Background/14.jpg')
 }
+/* Background Graduaciones */
+
+/* Background SalonStyle */
 .backgroundcontainer.salonstyle{
     background-image: url('../src/Background/16_Style.jpg')
 }
 .backgroundcontainer.stylecounter{
     background-image: url('../src/Background/16_StyleCounter.jpg')
 }
+/* Background SalonStyle */
+
+/* Background Salon Magno */
 .backgroundcontainer.salonmagno{
     background-image: url('../src/Background/17_Magno.jpg')
 }
 .backgroundcontainer.magnocounter{
     background-image: url('../src/Background/17_MagnoCounter.jpg')
 }
+/* Background Salon Magno */
+
+/* Background Salon palacio */
 .backgroundcontainer.salonpalacio{
     background-image: url('../src/Background/18_Palacio.jpg')
 }
 .backgroundcontainer.palaciocounter{
     background-image: url('../src/Background/18_palacioCounter.jpg')
 }
+/* Background Salon palacio */
 
 
 /*
