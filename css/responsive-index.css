@@ -381,6 +381,10 @@
 }
 @media (max-width: 375px){
 
+    .backgroundtittle {
+        font-size: 1.3em;
+    }
+
     .backgroundcontainer.contador{
         height: 350px;
     }
@@ -477,7 +481,7 @@
         height: 300px;
     }
     .backgroundtittle{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .stadistics{
         height: auto;
