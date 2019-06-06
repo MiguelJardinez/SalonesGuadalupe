@@ -102,16 +102,16 @@ nav ul li a:hover{
 }
 
 .social-link.facebook{
-    background-image: url('../src/Icons/Luxuri/Facebook/facebook.svg')
+    background-image: url('../dist/Luxuri/Facebook/facebook.svg')
 }
 .social-link.whatsapp{
-    background-image: url('../src/Icons/Luxuri/Whatsapp/Whatsapp.svg')
+    background-image: url('../dist/Luxuri/Whatsapp/Whatsapp.svg')
 }
 .social-link.instagram{
-    background-image: url('../src/Icons/Luxuri/instagram/Instagram.svg')
+    background-image: url('../dist/Luxuri/instagram/Instagram.svg')
 }
 .social-link.youtube{
-    background-image: url('../src/Icons/Luxuri/youtube/Youtube.svg')
+    background-image: url('../dist/Luxuri/youtube/Youtube.svg')
 }
 /*
 //////////////////////////Información de informacion general////////////////////////////////////////
