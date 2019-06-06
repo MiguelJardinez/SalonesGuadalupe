@@ -9,7 +9,8 @@ module.exports = {
             features: {
                 autoprefixer: {
                     grid: true,
-                    
+                    background: true,
+                    margin: true, 
                 }
             }
         })
