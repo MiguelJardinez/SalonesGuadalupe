@@ -167,7 +167,7 @@ nav ul li a:hover{
     font-family: 'Brawler';
 }
 .footerlogomiguel{
-    background-image: url('../src/Icons/logomiguel.svg');
+    background-image: url('../logomiguel.svg');
     width: 100px;
     height: 30px;
     margin-left: 10px;
