@@ -1,0 +1,28 @@
+{
+  "name": "pagina-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "autoprefixer": "^9.6.0",
+    "fsevents": "^1.2.9",
+    "nan": "^2.14.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-cssnext": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelJardinez/SalonesGuadalupe.git"
+  },
+  "author": "Miguel Jardinez <jardinez7514@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelJardinez/SalonesGuadalupe/issues"
+  },
+  "homepage": "https://github.com/MiguelJardinez/SalonesGuadalupe#readme"
+}
